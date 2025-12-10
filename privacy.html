@@ -1,173 +1,175 @@
+<!-- privacy.html -->
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Privacy Policy – GN Performance Hub</title>
-  <meta name="description" content="Privacy Policy for GN Performance Hub" />
-  <meta name="robots" content="index,follow" />
-  <link rel="canonical" href="https://<your-gh-pages-domain>/privacy.html" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy – GN Performance Hub</title>
+  <meta name="description" content="Privacy Policy for GN Performance Hub" />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://<your-gh-pages-domain>/privacy.html" />
 
-    <meta property="og:title" content="Privacy Policy – GN Performance Hub" />
-  <meta property="og:description" content="How GN Performance Hub collects and uses your data. No ads, no tracking, no data sales." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://<your-gh-pages-domain>/privacy.html" />
-  <meta property="og:site_name" content="GN Performance Hub" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Privacy Policy – GN Performance Hub" />
+  <meta property="og:description" content="How GN Performance Hub collects and uses your data. No ads, no tracking, no data sales." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://<your-gh-pages-domain>/privacy.html" />
+  <meta property="og:site_name" content="GN Performance Hub" />
 
-  <style>
-    :root{
-      /* Light (default) */
-      --bg:#f7f7f8;
-      --card:#ffffff;
-      --border:#e6e6ea;
-      --text:#141416;
-      --muted:#5f6065;
-      --accent:#ef4444;
-      --chip:#f3f4f6;
-    }
-    @media (prefers-color-scheme: dark){
-      :root{
-        --bg:#0f0f10;
-        --card:#161618;
-        --border:#2a2a2c;
-        --text:#eaeaea;
-        --muted:#b5b5b5;
-        --accent:#ff4d4f;
-        --chip:#202023;
-      }
-    }
+  <style>
+    :root{
+      /* Light (default) */
+      --bg:#f7f7f8;
+      --card:#ffffff;
+      --border:#e6e6ea;
+      --text:#141416;
+      --muted:#5f6065;
+      --accent:#ef4444;
+      --chip:#f3f4f6;
+    }
+    @media (prefers-color-scheme: dark){
+      :root{
+        --bg:#0f0f10;
+        --card:#161618;
+        --border:#2a2a2c;
+        --text:#eaeaea;
+        --muted:#b5b5b5;
+        --accent:#ff4d4f;
+        --chip:#202023;
+      }
+    }
 
-    *{box-sizing:border-box}
-    html,body{
-      margin:0;
-      background:var(--bg);
-      color:var(--text);
-      font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,Helvetica,Arial,sans-serif;
-      text-rendering:optimizeLegibility;
-      -webkit-font-smoothing:antialiased;
-      -moz-osx-font-smoothing:grayscale;
-    }
-    a{color:var(--accent);text-decoration:none}
-    a:hover{text-decoration:underline}
+    *{box-sizing:border-box}
+    html,body{
+      margin:0;
+      background:var(--bg);
+      color:var(--text);
+      font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,Helvetica,Arial,sans-serif;
+      text-rendering:optimizeLegibility;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+    }
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
 
-    .wrap{max-width:960px;margin:0 auto;padding:28px 20px}
-    header{display:flex;align-items:center;gap:16px;margin:6px 0 20px;flex-wrap:wrap}
-    .logo{
-      width:48px;height:48px;border-radius:12px;
-      background:var(--accent);
-      display:flex;align-items:center;justify-content:center;
-      font-weight:800;letter-spacing:.5px;color:#fff
-    }
-    .logo span{font-size:18px}
-    .brand{display:flex;flex-direction:column;gap:4px}
-    h1{font-size:28px;line-height:1.2;margin:0}
-    .muted{color:var(--muted);font-size:14px}
+    .wrap{max-width:960px;margin:0 auto;padding:28px 20px}
+    header{display:flex;align-items:center;gap:16px;margin:6px 0 20px;flex-wrap:wrap}
+    .logo{
+      width:48px;height:48px;border-radius:12px;
+      background:var(--accent);
+      display:flex;align-items:center;justify-content:center;
+      font-weight:800;letter-spacing:.5px;color:#fff
+    }
+    .logo span{font-size:18px}
+    .brand{display:flex;flex-direction:column;gap:4px}
+    h1{font-size:28px;line-height:1.2;margin:0}
+    .muted{color:var(--muted);font-size:14px}
 
-    .nav{display:flex;gap:10px;flex-wrap:wrap;margin-left:auto}
-    .chip{
-      padding:6px 10px;border:1px solid var(--border);border-radius:12px;
-      color:var(--text);background:var(--chip)
-    }
+    .nav{display:flex;gap:10px;flex-wrap:wrap;margin-left:auto}
+    .chip{
+      padding:6px 10px;border:1px solid var(--border);border-radius:12px;
+      color:var(--text);background:var(--chip)
+    }
 
-    .card{
-      background:var(--card);
-      border:1px solid var(--border);
-      border-radius:16px;
-      padding:20px;
-      margin:18px 0;
-      box-shadow:0 1px 2px rgba(0,0,0,.04)
-    }
-    h2{font-size:22px;margin:4px 0 10px}
-    p{margin:10px 0}
-    ul{margin:8px 0 8px 20px}
-    li{margin:6px 0}
-    strong{font-weight:700}
+    .card{
+      background:var(--card);
+      border:1px solid var(--border);
+      border-radius:16px;
+      padding:20px;
+      margin:18px 0;
+      box-shadow:0 1px 2px rgba(0,0,0,.04)
+    }
+    h2{font-size:22px;margin:4px 0 10px}
+    p{margin:10px 0}
+    ul{margin:8px 0 8px 20px}
+    li{margin:6px 0}
+    strong{font-weight:700}
 
-    footer{
-      opacity:.8;margin:28px 0 8px;font-size:14px
-    }
+    footer{
+      opacity:.8;margin:28px 0 8px;font-size:14px
+    }
 
-    @media (max-width:600px){
-      h1{font-size:24px}
-      h2{font-size:20px}
-      .card{padding:16px}
-    }
-  </style>
+    @media (max-width:600px){
+      h1{font-size:24px}
+      h2{font-size:20px}
+      .card{padding:16px}
+    }
+  </style>
 </head>
 <body>
-  <div class="wrap">
-    <header>
-      <div class="logo" aria-hidden="true"><span>GN</span></div>
-      <div class="brand">
-        <h1>GN Performance Hub</h1>
-        <div class="muted" aria-label="Last updated">Last updated: October 18, 2025</div>
-      </div>
-      <nav class="nav" aria-label="Top navigation">
-        <a class="chip" href="index.html">Support</a>
-        <a class="chip" href="privacy.html" aria-current="page">Privacy</a>
-        <a class="chip" href="contact.html">Contact</a>
-        <a class="chip" href="delete.html">Delete Account</a>
-      </nav>
-    </header>
+  <div class="wrap">
+    <header>
+      <div class="logo" aria-hidden="true"><span>GN</span></div>
+      <div class="brand">
+        <h1>GN Performance Hub</h1>
+        <div class="muted" aria-label="Last updated">Last updated: October 18, 2025</div>
+      </div>
+      <nav class="nav" aria-label="Top navigation">
+        <a class="chip" href="index.html">Support</a>
+        <a class="chip" href="privacy.html" aria-current="page">Privacy</a>
+        <a class="chip" href="contact.html">Contact</a>
+        <a class="chip" href="delete.html">Delete Account</a>
+      </nav>
+    </header>
 
-        <section class="card" lang="en" aria-labelledby="en-privacy">
-      <h2 id="en-privacy">Privacy Policy (EN)</h2>
+    <!-- EN -->
+    <section class="card" lang="en" aria-labelledby="en-privacy">
+      <h2 id="en-privacy">Privacy Policy (EN)</h2>
 
-      <p><strong>What we collect</strong></p>
-      <ul>
-        <li><strong>Contact Info:</strong> first/last name, email address, and optional phone (to run your account and bookings).</li>
-        <li><strong>Identifiers:</strong> a user/account ID to link your reservations and points/credits.</li>
-        <li><strong>Diagnostics:</strong> we do not collect crash or performance data at this time.</li>
-      </ul>
+      <p><strong>What we collect</strong></p>
+      <ul>
+        <li><strong>Contact Info:</strong> first/last name, email address, and optional phone (to run your account and bookings).</li>
+        <li><strong>Identifiers:</strong> a user/account ID to link your reservations and points/credits.</li>
+        <li><strong>Diagnostics:</strong> we do not collect crash or performance data at this time.</li>
+      </ul>
 
-      <p><strong>How we use data</strong></p>
-      <ul>
-        <li>Provide core functionality (account, booking/cancellation, points/credits, admin operations).</li>
-        <li>Operational reliability and security (e.g., verification, troubleshooting, abuse prevention).</li>
-        <li>Legal/compliance (lawful requests, terms enforcement).</li>
-      </ul>
+      <p><strong>How we use data</strong></p>
+      <ul>
+        <li>Provide core functionality (account, booking/cancellation, points/credits, admin operations).</li>
+        <li>Operational reliability and security (e.g., verification, troubleshooting, abuse prevention).</li>
+        <li>Legal/compliance (lawful requests, terms enforcement).</li>
+      </ul>
 
-      <p><strong>Tracking & ads:</strong> We do <strong>not</strong> sell data, use third-party advertising, or engage in cross-app tracking.</p>
-      <p><strong>Security:</strong> Data is transmitted over HTTPS and stored with restricted access.</p>
-      <p><strong>Points/Credits:</strong> Internal usage units for booking. They are not money or stored value, are non-redeemable and non-transferable, and no in-app payments occur.</p>
-      
-      <p><strong>Age Restrictions:</strong> Our Service is strictly intended for users <strong>18 years of age or older</strong>. We do not knowingly collect personal information from individuals under 18. If you are a parent or guardian and you believe your child has provided us with Personal Data, please contact us immediately.</p>
+      <p><strong>Tracking & ads:</strong> We do <strong>not</strong> sell data, use third-party advertising, or engage in cross-app tracking.</p>
+      <p><strong>Security:</strong> Data is transmitted over HTTPS and stored with restricted access.</p>
+      <p><strong>Points/Credits:</strong> Internal usage units for booking. They are not money or stored value, are non-redeemable and non-transferable, and no in-app payments occur.</p>
 
-      <p><strong>Your choices:</strong> To request access, correction, or <a href="delete.html">deletion of your account</a>, contact
-        <a href="mailto:gnperformance.server@gmail.com">gnperformance.server@gmail.com</a> or follow the steps on our <a href="delete.html">Delete Account</a> page.
-      </p>
-    </section>
+      <p><strong>Your choices:</strong> To request access, correction, or <a href="delete.html">deletion of your account</a>, contact
+        <a href="mailto:gnperformance.server@gmail.com">gnperformance.server@gmail.com</a> or follow the steps on our <a href="delete.html">Delete Account</a> page.
+      </p>
+    </section>
 
-        <section class="card" lang="el" aria-labelledby="el-privacy">
-      <h2 id="el-privacy">Πολιτική Απορρήτου (EL)</h2>
+    <!-- EL -->
+    <section class="card" lang="el" aria-labelledby="el-privacy">
+      <h2 id="el-privacy">Πολιτική Απορρήτου (EL)</h2>
 
-      <p><strong>Τι συλλέγουμε</strong></p>
-      <ul>
-        <li><strong>Στοιχεία επικοινωνίας:</strong> όνομα, email, και προαιρετικά τηλέφωνο (για λειτουργία λογαριασμού/κρατήσεων).</li>
-        <li><strong>Αναγνωριστικά:</strong> ID χρήστη/λογαριασμού για σύνδεση ραντεβού και πόντων/credits.</li>
-        <li><strong>Διαγνωστικά:</strong> δεν συλλέγουμε crash ή performance δεδομένα αυτή τη στιγμή.</li>
-      </ul>
+      <p><strong>Τι συλλέγουμε</strong></p>
+      <ul>
+        <li><strong>Στοιχεία επικοινωνίας:</strong> όνομα, email, και προαιρετικά τηλέφωνο (για λειτουργία λογαριασμού/κρατήσεων).</li>
+        <li><strong>Αναγνωριστικά:</strong> ID χρήστη/λογαριασμού για σύνδεση ραντεβού και πόντων/credits.</li>
+        <li><strong>Διαγνωστικά:</strong> δεν συλλέγουμε crash ή performance δεδομένα αυτή τη στιγμή.</li>
+      </ul>
 
-      <p><strong>Πώς χρησιμοποιούμε τα δεδομένα</strong></p>
-      <ul>
-        <li>Παροχή βασικών λειτουργιών (λογαριασμός, κράτηση/ακύρωση, πόντοι/credits, λειτουργίες διαχειριστή).</li>
-        <li>Λειτουργική αξιοπιστία &amp; ασφάλεια (π.χ. επαλήθευση, αντιμετώπιση προβλημάτων, πρόληψη κατάχρησης).</li>
-        <li>Συμμόρφωση με νόμο/εκτέλεση όρων.</li>
-      </ul>
+      <p><strong>Πώς χρησιμοποιούμε τα δεδομένα</strong></p>
+      <ul>
+        <li>Παροχή βασικών λειτουργιών (λογαριασμός, κράτηση/ακύρωση, πόντοι/credits, λειτουργίες διαχειριστή).</li>
+        <li>Λειτουργική αξιοπιστία &amp; ασφάλεια (π.χ. επαλήθευση, αντιμετώπιση προβλημάτων, πρόληψη κατάχρησης).</li>
+        <li>Συμμόρφωση με νόμο/εκτέλεση όρων.</li>
+      </ul>
 
-      <p><strong>Παρακολούθηση &amp; διαφημίσεις:</strong> Δεν πουλάμε δεδομένα, δεν χρησιμοποιούμε διαφημιστικά δίκτυα και δεν κάνουμε cross-app tracking.</p>
-      <p><strong>Ασφάλεια:</strong> Μετάδοση μέσω HTTPS και αποθήκευση με περιορισμένη πρόσβαση.</p>
-      <p><strong>Πόντοι/Credits:</strong> Εσωτερικές μονάδες χρήσης για κρατήσεις. Δεν αποτελούν χρήμα ή αποθηκευμένη αξία, δεν εξαργυρώνονται και δεν μεταβιβάζονται. Δεν γίνονται πληρωμές μέσα στην εφαρμογή.</p>
-      
-      <p><strong>Περιορισμοί Ηλικίας:</strong> Η Υπηρεσία μας προορίζεται αυστηρά για χρήστες <strong>ηλικίας 18 ετών και άνω</strong>. Δεν συλλέγουμε εν γνώσει μας προσωπικά στοιχεία από άτομα κάτω των 18 ετών. Εάν είστε γονέας ή κηδεμόνας και πιστεύετε ότι το παιδί σας μας έχει παράσχει Προσωπικά Δεδομένα, παρακαλούμε επικοινωνήστε μαζί μας αμέσως.</p>
+      <p><strong>Περιορισμοί Ηλικίας:</strong> Η Υπηρεσία μας προορίζεται αυστηρά για χρήστες <strong>ηλικίας 18 ετών και άνω</strong>. Δεν συλλέγουμε εν γνώσει μας προσωπικά στοιχεία από άτομα κάτω των 18 ετών. Εάν είστε γονέας ή κηδεμόνας και πιστεύετε ότι το παιδί σας μας έχει παράσχει Προσωπικά Δεδομένα, παρακαλούμε επικοινωνήστε μαζί μας αμέσως.</p>
 
-      <p><strong>Τα δικαιώματά σας:</strong> Για πρόσβαση, διόρθωση ή <a href="delete.html">διαγραφή του λογαριασμού σας</a>, 
-        επικοινωνήστε στο <a href="mailto:gnperformance.server@gmail.com">gnperformance.server@gmail.com</a> ή ακολουθήστε τα βήματα στη σελίδα 
-        <a href="delete.html">Διαγραφή λογαριασμού</a>.
-      </p>
-    </section>
+      <p><strong>Παρακολούθηση &amp; διαφημίσεις:</strong> Δεν πουλάμε δεδομένα, δεν χρησιμοποιούμε διαφημιστικά δίκτυα και δεν κάνουμε cross-app tracking.</p>
+      <p><strong>Ασφάλεια:</strong> Μετάδοση μέσω HTTPS και αποθήκευση με περιορισμένη πρόσβαση.</p>
+      <p><strong>Πόντοι/Credits:</strong> Εσωτερικές μονάδες χρήσης για κρατήσεις. Δεν αποτελούν χρήμα ή αποθηκευμένη αξία, δεν εξαργυρώνονται και δεν μεταβιβάζονται. Δεν γίνονται πληρωμές μέσα στην εφαρμογή.</p>
 
-    <footer>© 2025 GN Performance Hub. All rights reserved.</footer>
-  </div>
+      <p><strong>Τα δικαιώματά σας:</strong> Για πρόσβαση, διόρθωση ή <a href="delete.html">διαγραφή του λογαριασμού σας</a>, 
+        επικοινωνήστε στο <a href="mailto:gnperformance.server@gmail.com">gnperformance.server@gmail.com</a> ή ακολουθήστε τα βήματα στη σελίδα 
+        <a href="delete.html">Διαγραφή λογαριασμού</a>.
+      </p>
+    </section>
+
+    <footer>© 2025 GN Performance Hub. All rights reserved.</footer>
+  </div>
 </body>
 </html>
